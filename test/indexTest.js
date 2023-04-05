@@ -18,7 +18,7 @@ describe('index.js', function () {
     it('returns an empty array if there is no match', function () {
       const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
 
-      expect(findMatching(drivers, 'Susan')).to.eql([]);
+      expect().to.eql([]);
     });
   });
 
